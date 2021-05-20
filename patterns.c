@@ -1,4 +1,7 @@
 
+#include<stdio.h>
+#include<cs50.h>
+
 int main(void)
 {
    int type,rows,i,j,k;
@@ -42,4 +45,4 @@ int main(void)
      } 
        
    }
-} 
+}
