@@ -17,7 +17,7 @@ int main(void)
    }
           
    if(type==2){
-     for(i=0;i<rows;i++){  
+     for(i=1;i<=rows;i++){  
        for(k=i;k<rows;k++){
  	      printf(" "); 	     
        }
