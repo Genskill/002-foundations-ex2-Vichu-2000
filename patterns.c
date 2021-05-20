@@ -8,40 +8,23 @@ int main(void)
    rows=get_int("Number of rows ");
     
    if(type==1){
-    
     for(i=rows;i>0;i--){
-      
-     for(j=i;j>0;j--){
- 	   
-      printf("#"); 	     
-      
-     }
-    
-     printf("\n");   
-    
+      for(j=i;j>0;j--){
+ 	     printf("#"); 	     
+      }
+      printf("\n");   
     }
-    
    }
           
    if(type==2){
-     
-    for(i=0;i<rows;i++){  
-      
-      for(k=i;k<rows;k++){
- 	   
- 	printf(" "); 	     
-      
-      }
-        
-      for(j=0;j<i;j++){
- 	 
- 	printf("#");
- 	 
-      }
- 	 
-      printf("\n");
-  
+     for(i=0;i<rows;i++){  
+       for(k=i;k<rows;k++){
+ 	      printf(" "); 	     
+       }
+       for(j=0;j<i;j++){
+ 	      printf("#");
+ 	    }
+ 	    printf("\n");
      } 
-       
    }
 }  
