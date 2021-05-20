@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<cs50.h>
 
@@ -26,7 +25,7 @@ int main(void)
           
    if(type==2){
      
-    for(i=1;i<=rows;i++){  
+    for(i=0;i<rows;i++){  
       
       for(k=i;k<rows;k++){
  	   
@@ -45,4 +44,4 @@ int main(void)
      } 
        
    }
-}
+}  
